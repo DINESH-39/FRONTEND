@@ -1,0 +1,37 @@
+.atable {
+    border-collapse:separate;
+    border-spacing: 0 10px;
+    width: 100%;
+    min-width: 600px;
+    margin-top: 10px;
+    background-color: #ffffff00;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(151, 43, 43, 0.905);
+    
+  }
+.view-button
+{
+  height: 25px;
+  width: 30px;
+}
+.navbar
+{
+  background-color:bisque;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.home
+{
+  margin-left: 600px;
+  font-weight: 500px;
+  font-style: bold;
+}
+.idt1
+{
+  width:150px;
+}
+.td,.Actions
+{
+  text-align: center;
+  align-items: center;
+}
