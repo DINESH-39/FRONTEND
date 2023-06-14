@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import './Add.css';
 
 export default function AddDetails() {
   let navigate = useNavigate();
@@ -33,17 +34,18 @@ export default function AddDetails() {
   };
 
   return (
-    <div className="container">
+    <div className="addcontainer">
       <div className="row">
         <div className="col-md-6 offset-md-3 border rounded p-4 mt-2 shadow ">
           <h2 className="text-center m-4">Add Details</h2>
-          <form onSubmit={(e) => onSubmit(e)}>
+          <form className="adfrm" onSubmit={(e) => onSubmit(e)}>
           
             <div className="mb-3">
-              <label htmlFor="Name" className="form-label">
+              <label id='adinput' htmlFor="Name" className="form-label">
                 Id
               </label>
               <input
+                id='adinput'
                 type="text"
                 className="form-control border-dark shadow"
                 placeholder="Enter Id"
@@ -53,10 +55,11 @@ export default function AddDetails() {
               />
             </div>
             <div className="mb-3">
-              <label htmlFor="Name" className="form-label">
+              <label id='adinput' htmlFor="Name" className="form-label">
                 Registration Number
               </label>
               <input
+                id='adinput'
                 type="text"
                 className="form-control border-dark shadow"
                 placeholder="Enter Registration Number"
@@ -66,10 +69,11 @@ export default function AddDetails() {
               />
             </div>
             <div className="mb-3">
-              <label htmlFor="Name" className="form-label">
+              <label id='adinput' htmlFor="Name" className="form-label">
                 Owner Name
               </label>
               <input
+                id='adinput'
                 type="text"
                 className="form-control border-dark shadow"
                 placeholder="Enter The ownername"
@@ -79,10 +83,11 @@ export default function AddDetails() {
               />
             </div>
             <div className="mb-3">
-              <label htmlFor="Name" className="form-label">
+              <label id='adinput' htmlFor="Name" className="form-label">
                 Manufacturer
               </label>
               <input
+                id='adinput'
                 type="text"
                 className="form-control border-dark shadow"
                 placeholder="Enter The Manufacturer"
@@ -92,10 +97,11 @@ export default function AddDetails() {
               />
             </div>
             <div className="mb-3">
-              <label htmlFor="Name" className="form-label">
+              <label id='adinput' htmlFor="Name" className="form-label">
                 Model Name
               </label>
               <input
+                id='adinput'
                 type="text"
                 className="form-control border-dark shadow"
                 placeholder="Enter modelname"
@@ -105,10 +111,11 @@ export default function AddDetails() {
               />
             </div>
             <div className="mb-3">
-              <label htmlFor="Name" className="form-label">
+              <label id='adinput' htmlFor="Name" className="form-label">
                 Vehicletype
               </label>
               <input
+                id='adinput'
                 type="text"
                 className="form-control border-dark shadow"
                 placeholder="Enter Vehicletype"
@@ -118,10 +125,11 @@ export default function AddDetails() {
               />
             </div>
             <div className="mb-3">
-              <label htmlFor="Name" className="form-label">
+              <label id='adinput' htmlFor="Name" className="form-label">
                 Fuel Type
               </label>
               <input
+                id='adinput'
                 type="text"
                 className="form-control border-dark shadow"
                 placeholder="Enter fueltype"
@@ -131,10 +139,11 @@ export default function AddDetails() {
               />
             </div>
             <div className="mb-3">
-              <label htmlFor="Name" className="form-label">
+              <label id='adinput' htmlFor="Name" className="form-label">
                 Registered Year
               </label>
               <input
+                id='adinput'
                 type="text"
                 className="form-control border-dark shadow"
                 placeholder="Enter The Registered Year"
@@ -144,10 +153,11 @@ export default function AddDetails() {
               />
             </div>
             <div className="mb-3">
-              <label htmlFor="Name" className="form-label">
+              <label id='adinput' htmlFor="Name" className="form-label">
                 cc
               </label>
               <input
+                id='adinput'
                 type="text"
                 className="form-control border-dark shadow"
                 placeholder="Enter cc"
@@ -157,10 +167,11 @@ export default function AddDetails() {
               />
             </div>
             <div className="mb-3">
-              <label htmlFor="Name" className="form-label">
+              <label id='adinput' htmlFor="Name" className="form-label">
                 State
               </label>
               <input
+                id='adinput'
                 type="text"
                 className="form-control border-dark shadow"
                 placeholder="Enter registered state"
@@ -170,10 +181,11 @@ export default function AddDetails() {
               />
             </div>
             <div className="mb-3">
-              <label htmlFor="Name" className="form-label">
+              <label id='adinput' htmlFor="Name" className="form-label">
                 Colour
               </label>
               <input
+                id='adinput'
                 type="text"
                 className="form-control border-dark shadow"
                 placeholder="Enter colour"
@@ -182,10 +194,10 @@ export default function AddDetails() {
                 onChange={(e) => onInputChange(e)}
               />
             </div>
-            <button type="submit" className="btn btn-outline-success my-2">
+            <button id='bts1' type="submit" className="btn btn-success my-2">
               Add Details
             </button>
-            <Link className="btn btn-outline-danger my-2 mx-2" to={"/"}>
+            <Link id='bts' className="btn btn-danger my-2 mx-2" to={"/home"}>
               Cancel
             </Link>
           </form>

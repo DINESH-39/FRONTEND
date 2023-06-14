@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { Params,useParams,Link } from 'react-router-dom';
+import './ViewPage.css';
 export default function ViewDetails() {
   const [user, setUser] = useState({
     id: '',
@@ -28,10 +29,10 @@ export default function ViewDetails() {
   };
 
   return (
-    <div className="container">
+    <div className="viewcontainer">
       <div className="row">
         <div className="col-md-6 offset-md-3 border rounded p-4 mt-2 shadow">
-          <h2 className="text-center m-4">Vehicle Details</h2>
+          <h2 className="text-center m-2">Vehicle Details</h2>
 
           <div className="card">
             <div className="card-header">
@@ -84,7 +85,7 @@ export default function ViewDetails() {
               </ul>
             </div>
           </div>
-          <Link className="btn btn-primary my-2" to={"/"}>
+          <Link id='lk' className="btn btn-primary my-2" name="vbt" to={"/home"}>
             Back to Home
           </Link>
         </div>

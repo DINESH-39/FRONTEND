@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useParams, useNavigate } from "react-router-dom";
 
 export default function EditDetails() {
-  let navigate = useNavigate();
+  const navigate = useNavigate();
   const { id } = useParams();
   console.log(id);
   const [user, setUser] = useState({
@@ -47,11 +47,11 @@ export default function EditDetails() {
   const onSubmit = async (e) => {
     e.preventDefault();
     await axios.put(`http://localhost:8080/updatevhcl`, user);
-    navigate("/");
+    navigate("/home");
   };
 
   return (
-    <div className="container">
+    <div className="editcontainer">
       <div className="row">
         <div className="col-md-6 offset-md-3 border rounded p-4 mt-2 shadow">
           <h2 className="text-center m-4">Edit Details</h2>
@@ -173,10 +173,12 @@ export default function EditDetails() {
                 onChange={(e) => onInputChange(e)}
               />
             </div>
-            <button type="submit" className="btn btn-primary my-2">
+            
+            <button id="lk2" type="submit" className="btn btn-primary my-2">
               Update Details
             </button>
-            <Link className="btn btn-primary my-2 mx-2" to={"/"}>
+            
+            <Link id='lk2' className="btn btn-primary my-2 mx-2" to={"/home"}>
               Back to Home
             </Link>
           </form>

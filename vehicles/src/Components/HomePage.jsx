@@ -1,9 +1,8 @@
 import React,{useEffect,useState} from 'react';
 import axios from "axios";
-import {Link, NavLink} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import './HomePage.css';
-import ViewDetails from './ViewPage';
 
 export default function Home()
 {
@@ -28,11 +27,11 @@ export default function Home()
         <div className='container'>
             <div className='navbar'>
                 <span className='home'>Home</span>
-                <Link className='btn btn-outline-success mx-2' to={'post'}>ADD YOUR VEHICLE</Link>
+                <Link className='btn btn-outline-success mx-2' to={'/post'}>ADD YOUR VEHICLE</Link>
             </div>
             <table className="table border dark shadow">
                 <thead>
-                    <tr>
+                    <tr className='r'>
                         <th scope='col'>ID</th>
                         <th scope='col'>Register Number</th>
                         <th scope='col'>Owner Name</th>
@@ -48,7 +47,7 @@ export default function Home()
                             <td>
                                 <Link className='btn btn-outline-success mx-2' to={`/getdetail/${user.id}`}>View</Link>
                                 <Link className='btn btn-outline-primary mx-2' to={`/update/${user.id}`}>Edit</Link>
-                                <button className='btn btn-outline-danger mx-2' onClick={()=>deleteVehicle(user.id)}>Delete</button>
+                                <button className='btn  btn-outline-danger mx-2' onClick={()=>deleteVehicle(user.id)}>Delete</button>
                             </td>
                         </tr>
                     ))}

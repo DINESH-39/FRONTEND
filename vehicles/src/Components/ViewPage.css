@@ -1,0 +1,42 @@
+.viewcontainer
+{
+    
+    background-image: url("./bcd.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height:97vh;
+}
+.addcontainer,.editcontainer
+{
+    background-image: url("./add3.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.card-header
+{
+    color: black;
+    font-weight: 500;
+}
+.card
+{
+    background-color: rgba(255, 255, 255, 0.438);
+}
+.row
+{
+    padding-top: 20px;
+    padding-left: 10px;
+
+}
+#lk:hover
+{
+    background-color: rgba(127, 255, 212, 0.378);
+}
+#lk2
+{
+    background-color:chocolate;
+    margin-left: 150px;
+}
+#lk2:hover
+{
+    background-color:teal;
+}
