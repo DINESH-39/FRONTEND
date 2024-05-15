@@ -1,0 +1,39 @@
+.plyr
+{
+    background-image: url(plyr.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+    background-size: 1580px 740px;
+    background-attachment: fixed;
+    height: 100%;
+    width:100%;
+}
+.btn
+{
+    position: absolute;
+    background-color: greenyellow;
+    border-radius: 120px;
+    margin-top: 570px;
+    margin-left: 630px; 
+    height: 50px;
+    width: 90px;
+}
+.log
+{
+    height: 240px;
+    width: 220px;
+    position: absolute;
+    margin-left: 610px;
+    margin-top: 220px;
+}
+.nam
+{
+    position: absolute;
+    margin-left: 620px;
+    height: 40px;
+}
+.btn:focus
+{
+    background-color: darkorange;
+}

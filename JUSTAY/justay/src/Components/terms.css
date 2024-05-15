@@ -1,0 +1,52 @@
+.trms
+{
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-size: 1580px 800px;
+    background-attachment: fixed;
+}
+.pic{
+    position: absolute;
+    height: 100px;
+    margin-left: 710px;
+    margin-top: 10px;
+}
+.nic{
+    position: absolute;
+    height: 30px;
+    margin-left: 715px;
+    margin-top: 600px;
+}
+
+h4{
+    font-family:'Lucida Handwriting';
+}
+.back{
+    height: 25px;
+    width: 90px;
+    margin-left: 1277px;
+    margin-top: -30px;
+    border-radius: 50px;
+}
+ul {
+    list-style-position: inside;
+  }
+  .para
+  {
+    margin-top: 66px;
+    text-align: justify;
+    width: 1350px;
+    background-color:rgba(255, 255, 255, 0.793);
+    color:black;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-left: 70px;
+    padding:20px;
+    font-family:'Electrolize';
+    border-radius: 50px;
+    text-indent: 10px;
+  }

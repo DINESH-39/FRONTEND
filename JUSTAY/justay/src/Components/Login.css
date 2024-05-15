@@ -1,0 +1,74 @@
+.login{
+    background-image: url(loginbg.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-size: 1580px 800px;
+    background-attachment: fixed;
+}
+.usname{
+    height: 37px;
+    min-width: 220px;
+    margin-top: 420px;
+    margin-left: 1120px;
+    border-radius: 50px;
+    background-color:rgb(254, 252, 254);
+    font-size: 26px;
+    background-color: darkorchid;
+}
+.pass{
+    height: 37px;
+    min-width: 220px;
+    margin-top: 10px;
+    margin-left: 1120px;
+    border-radius: 50px;
+    background-color: darkorchid;
+}
+::placeholder{
+    color:antiquewhite;
+    font-family: 'roboto';
+    font-size: 26px;
+    padding-left: 15px;
+    font-style: italic;
+}
+.pij{
+    position: absolute;
+    height: 100px;
+    margin-top:300px ;
+    margin-left: 1178px;
+}
+.vij{
+    position: absolute;
+    height: 35px;
+    width: 150px;
+    margin-top: 385px;
+    margin-left: 1150px;
+}
+.Login{
+    position: absolute;
+    margin-left: 1180px;
+    margin-top: 48px;
+    border-radius: 50px;
+    height: 30px;
+    width: 100px;
+    background-color: darkorchid;
+}
+.SignUp{
+position: absolute;
+margin-left: 1180px;
+margin-top: 60px;
+border-radius: 50px;
+height: 30px;
+width: 100px;
+background-color: darkorchid;
+}
+.fgt
+{
+    position: absolute;
+    text-decoration: none;
+    margin-left: 1225px;
+    margin-top: -45px;
+    font-size:18px;
+}

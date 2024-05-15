@@ -1,0 +1,145 @@
+.signup
+{
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+    background-size: 1580px 740px;
+    height: 100%;
+    width:100%;
+    
+}
+.username
+{
+    height: 55px;
+    min-width: 280px;
+    color: black;
+    margin-left: 94px;
+    margin-top: 240px;
+    border-radius: 100px;
+    padding-left: 25px;
+    font-size: 26px;
+    background: #b8c2e3;
+
+    
+}
+.mail
+{
+    height: 55px;
+    min-width: 280px;
+    color: black;
+    margin-top: 30px;
+    margin-left: 94px;
+    border-radius: 100px;
+    padding-left: 25px;
+    font-size: 26px;
+    background: #b8c2e3;
+
+}
+.mobile
+{
+    height: 55px;
+    min-width: 280px;
+    color: black;
+    margin-left: 94px;
+    margin-top: 30px;
+    border-radius: 100px;
+    padding-left: 25px;
+    font-size: 26px;
+    background: #b8c2e3;
+
+}
+.setpass
+{
+    height: 55px;
+    min-width: 280px;
+    color: black;
+    margin-left: 94px;
+    margin-top: 30px;
+    border-radius: 100px;
+    padding-left: 25px;
+    font-size: 26px;
+    background:#b8c2e3;
+   
+}
+.logo
+{
+    margin-left: 1000px;
+    margin-top: -340px;
+    color: aliceblue;
+    opacity: 95%;
+}
+.name
+{
+    width: 240px;
+    height:40px;
+    position: center;
+    margin-top:-850px;
+    margin-left: 630px;
+    color: aliceblue;
+}
+.signin
+{
+    width: 200px;
+    height: 55px;
+    border-radius: 70px;
+    background-color: #560647b4;
+    margin-top: 20px;
+    margin-left: 650px;
+    border-color: #ef3fbde5;
+    border-right-color:#ef3fbde5 ;
+    border-width: 5px;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
+    color: #FE09C6;
+}
+input[type='checkbox']
+{
+    transition:none;
+    width: 18px;
+    height: 20px;
+    position: absolute;
+    margin-left: 105px;
+    margin-top: -30px;
+}
+.checklabel
+{
+    color: antiquewhite;
+    position: absolute;
+    margin-left: 132px;
+    margin-top: -30px;
+}
+input[type='text'] {
+    width: 100px;
+    -webkit-transition:ease-out;
+    transition: ease-out;
+    transition-duration: 0.4s;
+}
+input[type='text']:focus 
+{
+    width: 320px;
+    border:lightgreen 4px solid ;
+    outline: none;
+}
+input[type='password'] {
+    width: 100px;
+    -webkit-transition:ease-out;
+    transition: ease-out;
+    transition-duration: 0.4s;
+}
+input[type='password']:focus 
+{
+    width: 320px;
+    border:lightgreen 4px solid ;
+    outline: none;
+}
+.username::placeholder,.mail::placeholder,.mobile::placeholder,.setpass::placeholder
+{
+    color: black;
+}
+.tms
+{
+    text-decoration: none;
+    color: rgb(250, 138, 87);
+}
